@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		4D2DEBAF1ADF01C70035E2AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2DEBAE1ADF01C70035E2AC /* AppDelegate.swift */; };
 		4D2DEBB11ADF01C70035E2AC /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2DEBB01ADF01C70035E2AC /* HomeScreen.swift */; };
-		4D2DEBB31ADF01C70035E2AC /* 2nd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2DEBB21ADF01C70035E2AC /* 2nd.swift */; };
+		4D2DEBB31ADF01C70035E2AC /* MusicPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2DEBB21ADF01C70035E2AC /* MusicPreference.swift */; };
 		4D2DEBB61ADF01C70035E2AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2DEBB41ADF01C70035E2AC /* Main.storyboard */; };
 		4D2DEBB81ADF01C70035E2AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D2DEBB71ADF01C70035E2AC /* Images.xcassets */; };
 		4D2DEBBB1ADF01C70035E2AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D2DEBB91ADF01C70035E2AC /* LaunchScreen.xib */; };
 		4D2DEBC71ADF01C70035E2AC /* ShowerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2DEBC61ADF01C70035E2AC /* ShowerAppTests.swift */; };
+		4DAFC9161AFAB07E00CC5790 /* WaterUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFC9151AFAB07E00CC5790 /* WaterUsage.swift */; };
+		4DAFC9181AFAB19800CC5790 /* ?.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFC9171AFAB19800CC5790 /* ?.swift */; };
+		4DAFC91A1AFAB28700CC5790 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFC9191AFAB28700CC5790 /* About.swift */; };
+		4DAFC91E1AFAB4E200CC5790 /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFC91D1AFAB4E200CC5790 /* FAQ.swift */; };
 		4DD0BCD01AE03DFD0027FBB6 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0BCCF1AE03DFD0027FBB6 /* Timer.swift */; };
+		4DEA7B751AE97B11003768E7 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA7B741AE97B11003768E7 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,19 @@
 		4D2DEBAD1ADF01C70035E2AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D2DEBAE1ADF01C70035E2AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D2DEBB01ADF01C70035E2AC /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
-		4D2DEBB21ADF01C70035E2AC /* 2nd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2nd.swift; sourceTree = "<group>"; };
+		4D2DEBB21ADF01C70035E2AC /* MusicPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPreference.swift; sourceTree = "<group>"; };
 		4D2DEBB51ADF01C70035E2AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D2DEBB71ADF01C70035E2AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4D2DEBBA1ADF01C70035E2AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4D2DEBC01ADF01C70035E2AC /* ShowerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D2DEBC51ADF01C70035E2AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D2DEBC61ADF01C70035E2AC /* ShowerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowerAppTests.swift; sourceTree = "<group>"; };
+		4DAFC9151AFAB07E00CC5790 /* WaterUsage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterUsage.swift; sourceTree = "<group>"; };
+		4DAFC9171AFAB19800CC5790 /* ?.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "?.swift"; sourceTree = "<group>"; };
+		4DAFC9191AFAB28700CC5790 /* About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		4DAFC91D1AFAB4E200CC5790 /* FAQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FAQ.swift; path = ../FAQ.swift; sourceTree = "<group>"; };
 		4DD0BCCF1AE03DFD0027FBB6 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		4DEA7B741AE97B11003768E7 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +93,13 @@
 			children = (
 				4D2DEBAE1ADF01C70035E2AC /* AppDelegate.swift */,
 				4D2DEBB01ADF01C70035E2AC /* HomeScreen.swift */,
-				4D2DEBB21ADF01C70035E2AC /* 2nd.swift */,
+				4D2DEBB21ADF01C70035E2AC /* MusicPreference.swift */,
 				4D2DEBB41ADF01C70035E2AC /* Main.storyboard */,
+				4DAFC91D1AFAB4E200CC5790 /* FAQ.swift */,
+				4DAFC9191AFAB28700CC5790 /* About.swift */,
+				4DAFC9171AFAB19800CC5790 /* ?.swift */,
+				4DAFC9151AFAB07E00CC5790 /* WaterUsage.swift */,
+				4DEA7B741AE97B11003768E7 /* Settings.swift */,
 				4DD0BCCF1AE03DFD0027FBB6 /* Timer.swift */,
 				4D2DEBB71ADF01C70035E2AC /* Images.xcassets */,
 				4D2DEBB91ADF01C70035E2AC /* LaunchScreen.xib */,
@@ -218,10 +233,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D2DEBB31ADF01C70035E2AC /* 2nd.swift in Sources */,
+				4D2DEBB31ADF01C70035E2AC /* MusicPreference.swift in Sources */,
+				4DAFC91A1AFAB28700CC5790 /* About.swift in Sources */,
 				4D2DEBAF1ADF01C70035E2AC /* AppDelegate.swift in Sources */,
+				4DAFC9181AFAB19800CC5790 /* ?.swift in Sources */,
 				4D2DEBB11ADF01C70035E2AC /* HomeScreen.swift in Sources */,
+				4DAFC9161AFAB07E00CC5790 /* WaterUsage.swift in Sources */,
 				4DD0BCD01AE03DFD0027FBB6 /* Timer.swift in Sources */,
+				4DEA7B751AE97B11003768E7 /* Settings.swift in Sources */,
+				4DAFC91E1AFAB4E200CC5790 /* FAQ.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
