@@ -10,6 +10,7 @@ import UIKit
 import MediaPlayer
 
 
+
 class Timer: UIViewController {
 
     @IBOutlet var timerLabel: UILabel!
@@ -21,7 +22,13 @@ class Timer: UIViewController {
     var timerTime = 0
     var total = 0
     var timer = NSTimer()
-    
+
+    enum MPMusicShuffleModeSongs : Int {
+        case Default
+        case Off
+        case Songs
+        //  case Albums
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,6 +58,7 @@ class Timer: UIViewController {
         if total == 0 {
             timer.invalidate()
             timerLabel.text = "0 : 00"
+            myPlayer.stop()
         }
         
         else if seconds < 10 && seconds > -1{
@@ -61,7 +69,6 @@ class Timer: UIViewController {
     @IBAction func end() {
         dismissViewControllerAnimated(true, completion: nil)
         myPlayer.stop()
-
     }
     
     func playMusic() {
@@ -69,7 +76,9 @@ class Timer: UIViewController {
         let query = MPMediaQuery()
         myPlayer.setQueueWithQuery(query)
         myPlayer.play()
+      //  MPMusicShuffleModeSongs()
+
         
-    
     }
+
 }
