@@ -15,7 +15,6 @@
 		4D2DEBC71ADF01C70035E2AC /* ShowerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2DEBC61ADF01C70035E2AC /* ShowerAppTests.swift */; };
 		4DAFC9161AFAB07E00CC5790 /* WaterUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFC9151AFAB07E00CC5790 /* WaterUsage.swift */; };
 		4DAFC91A1AFAB28700CC5790 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFC9191AFAB28700CC5790 /* About.swift */; };
-		4DAFC91E1AFAB4E200CC5790 /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFC91D1AFAB4E200CC5790 /* FAQ.swift */; };
 		4DD0BCD01AE03DFD0027FBB6 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0BCCF1AE03DFD0027FBB6 /* Timer.swift */; };
 		4DEA7B751AE97B11003768E7 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA7B741AE97B11003768E7 /* Settings.swift */; };
 /* End PBXBuildFile section */
@@ -43,7 +42,6 @@
 		4D2DEBC61ADF01C70035E2AC /* ShowerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowerAppTests.swift; sourceTree = "<group>"; };
 		4DAFC9151AFAB07E00CC5790 /* WaterUsage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterUsage.swift; sourceTree = "<group>"; };
 		4DAFC9191AFAB28700CC5790 /* About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
-		4DAFC91D1AFAB4E200CC5790 /* FAQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FAQ.swift; path = ../FAQ.swift; sourceTree = "<group>"; };
 		4DD0BCCF1AE03DFD0027FBB6 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		4DEA7B741AE97B11003768E7 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,7 +88,6 @@
 				4D2DEBAE1ADF01C70035E2AC /* AppDelegate.swift */,
 				4D2DEBB01ADF01C70035E2AC /* HomeScreen.swift */,
 				4D2DEBB41ADF01C70035E2AC /* Main.storyboard */,
-				4DAFC91D1AFAB4E200CC5790 /* FAQ.swift */,
 				4DAFC9191AFAB28700CC5790 /* About.swift */,
 				4DAFC9151AFAB07E00CC5790 /* WaterUsage.swift */,
 				4DEA7B741AE97B11003768E7 /* Settings.swift */,
@@ -183,7 +180,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4D2DEBA41ADF01C70035E2AC /* Build configuration list for PBXProject "showerTunes" */;
+			buildConfigurationList = 4D2DEBA41ADF01C70035E2AC /* Build configuration list for PBXProject "showerTuness" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -233,7 +230,6 @@
 				4DAFC9161AFAB07E00CC5790 /* WaterUsage.swift in Sources */,
 				4DD0BCD01AE03DFD0027FBB6 /* Timer.swift in Sources */,
 				4DEA7B751AE97B11003768E7 /* Settings.swift in Sources */,
-				4DAFC91E1AFAB4E200CC5790 /* FAQ.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +409,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D2DEBA41ADF01C70035E2AC /* Build configuration list for PBXProject "showerTunes" */ = {
+		4D2DEBA41ADF01C70035E2AC /* Build configuration list for PBXProject "showerTuness" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D2DEBC81ADF01C70035E2AC /* Debug */,

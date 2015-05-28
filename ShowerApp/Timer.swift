@@ -33,7 +33,7 @@ class Timer: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTimer()
-        playMusic()
+     //   playMusic()
     }
     
     override func didReceiveMemoryWarning() {
@@ -58,7 +58,7 @@ class Timer: UIViewController {
         if total == 0 {
             timer.invalidate()
             timerLabel.text = "0 : 00"
-            myPlayer.stop()
+    //        myPlayer.stop()
         }
         
         else if seconds < 10 && seconds > -1{
@@ -68,17 +68,16 @@ class Timer: UIViewController {
 
     @IBAction func end() {
         dismissViewControllerAnimated(true, completion: nil)
-        myPlayer.stop()
+     //   myPlayer.stop()
     }
     
-    func playMusic() {
+  /*  func playMusic() {
         myPlayer = MPMusicPlayerController.systemMusicPlayer()
         let query = MPMediaQuery()
         myPlayer.setQueueWithQuery(query)
         myPlayer.play()
-      //  MPMusicShuffleModeSongs()
 
         
     }
-
+*/
 }
