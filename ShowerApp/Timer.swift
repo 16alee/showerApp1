@@ -7,47 +7,77 @@
 //
 
 import UIKit
+import MediaPlayer
+
+
 
 class Timer: UIViewController {
 
     @IBOutlet var timerLabel: UILabel!
     
+    var myPlayer : MPMusicPlayerController!
+    var seconds = 0
     var minutes = 0
+    var userTimer = 0
+    var timerTime = 0
+    var total = 0
     var timer = NSTimer()
+
+    enum MPMusicShuffleModeSongs : Int {
+        case Default
+        case Off
+        case Songs
+        //  case Albums
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTimer()
+     //   playMusic()
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-    
     
     func setupTimer() {
-        minutes = 30
-            //NSNumber(integer: Int(showerSlider.value))
-        
-        timerLabel.text = " \(minutes) minutes"
-        
-        timer = NSTimer.scheduledTimerWithTimeInterval(60.0, target: self, selector: Selector("subtractTime"), userInfo: nil, repeats: true)
+        timerLabel.text = "\(userTimer) : 00"
+        total = userTimer * 60
+        seconds = total % 60
+        minutes = total / 60
+        timer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: Selector("subtractTime"), userInfo: nil, repeats: true)
     }
     
+   
     func subtractTime(){
-        minutes--
-        timerLabel.text = " \(minutes) minutes"
+        total--
+        seconds = total % 60
+        minutes = total / 60
+        timerLabel.text = " \(minutes) : \(seconds)"
         
-        if(minutes == 0) {
+        if total == 0 {
             timer.invalidate()
+            timerLabel.text = "0 : 00"
+    //        myPlayer.stop()
         }
-    }
-    
+        
+        else if seconds < 10 && seconds > -1{
+            timerLabel.text = "\(minutes) : 0\(seconds)"
+        }
+   }
+
     @IBAction func end() {
         dismissViewControllerAnimated(true, completion: nil)
-    
-
+     //   myPlayer.stop()
     }
+    
+  /*  func playMusic() {
+        myPlayer = MPMusicPlayerController.systemMusicPlayer()
+        let query = MPMediaQuery()
+        myPlayer.setQueueWithQuery(query)
+        myPlayer.play()
 
+        
+    }
+*/
 }
