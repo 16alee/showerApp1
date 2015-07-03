@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:GraphView.swift">
+   </FileRef>
+   <FileRef
       location = "self:showerTunes.xcodeproj">
    </FileRef>
 </Workspace>

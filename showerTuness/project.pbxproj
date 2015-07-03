@@ -15,7 +15,9 @@
 		4D2DEBC71ADF01C70035E2AC /* ShowerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2DEBC61ADF01C70035E2AC /* ShowerAppTests.swift */; };
 		4DAFC9161AFAB07E00CC5790 /* WaterUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFC9151AFAB07E00CC5790 /* WaterUsage.swift */; };
 		4DAFC91A1AFAB28700CC5790 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFC9191AFAB28700CC5790 /* About.swift */; };
+		4DB836DB1B4613130018ABB3 /* CoreData.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 4DB836DA1B4613130018ABB3 /* CoreData.xcdatamodel */; };
 		4DD0BCD01AE03DFD0027FBB6 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0BCCF1AE03DFD0027FBB6 /* Timer.swift */; };
+		4DD7DD3C1B43915500419057 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7DD3B1B43915500419057 /* GraphView.swift */; };
 		4DEA7B751AE97B11003768E7 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA7B741AE97B11003768E7 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +44,9 @@
 		4D2DEBC61ADF01C70035E2AC /* ShowerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowerAppTests.swift; sourceTree = "<group>"; };
 		4DAFC9151AFAB07E00CC5790 /* WaterUsage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterUsage.swift; sourceTree = "<group>"; };
 		4DAFC9191AFAB28700CC5790 /* About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		4DB836DA1B4613130018ABB3 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; name = CoreData.xcdatamodel; path = ../../CoreData/CoreData/CoreData.xcdatamodeld/CoreData.xcdatamodel; sourceTree = "<group>"; };
 		4DD0BCCF1AE03DFD0027FBB6 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		4DD7DD3B1B43915500419057 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphView.swift; path = ../showerTuness/GraphView.swift; sourceTree = "<group>"; };
 		4DEA7B741AE97B11003768E7 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +89,7 @@
 		4D2DEBAB1ADF01C70035E2AC /* ShowerApp */ = {
 			isa = PBXGroup;
 			children = (
+				4DD7DD3B1B43915500419057 /* GraphView.swift */,
 				4D2DEBAE1ADF01C70035E2AC /* AppDelegate.swift */,
 				4D2DEBB01ADF01C70035E2AC /* HomeScreen.swift */,
 				4D2DEBB41ADF01C70035E2AC /* Main.storyboard */,
@@ -92,6 +97,7 @@
 				4DAFC9151AFAB07E00CC5790 /* WaterUsage.swift */,
 				4DEA7B741AE97B11003768E7 /* Settings.swift */,
 				4DD0BCCF1AE03DFD0027FBB6 /* Timer.swift */,
+				4DB836DA1B4613130018ABB3 /* CoreData.xcdatamodel */,
 				4D2DEBB71ADF01C70035E2AC /* Images.xcassets */,
 				4D2DEBB91ADF01C70035E2AC /* LaunchScreen.xib */,
 				4D2DEBAC1ADF01C70035E2AC /* Supporting Files */,
@@ -169,7 +175,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
-				ORGANIZATIONNAME = "Ashley Lee";
+				ORGANIZATIONNAME = Asena;
 				TargetAttributes = {
 					4D2DEBA81ADF01C70035E2AC = {
 						CreatedOnToolsVersion = 6.3;
@@ -226,6 +232,8 @@
 			files = (
 				4DAFC91A1AFAB28700CC5790 /* About.swift in Sources */,
 				4D2DEBAF1ADF01C70035E2AC /* AppDelegate.swift in Sources */,
+				4DD7DD3C1B43915500419057 /* GraphView.swift in Sources */,
+				4DB836DB1B4613130018ABB3 /* CoreData.xcdatamodel in Sources */,
 				4D2DEBB11ADF01C70035E2AC /* HomeScreen.swift in Sources */,
 				4DAFC9161AFAB07E00CC5790 /* WaterUsage.swift in Sources */,
 				4DD0BCD01AE03DFD0027FBB6 /* Timer.swift in Sources */,
@@ -359,6 +367,7 @@
 				INFOPLIST_FILE = ShowerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -369,6 +378,7 @@
 				INFOPLIST_FILE = ShowerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
